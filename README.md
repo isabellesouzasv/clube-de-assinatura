@@ -4,7 +4,7 @@
 
 Landing page para o clube de assinatura **Encantos Literários**. A página apresenta a proposta do clube, os itens que compõem o kit mensal e os planos de assinatura disponíveis. O projeto conta com animações de entrada, interações por hover e layout responsivo. Foi desenvolvido como parte da **formação Full Stack da Rocketseat**.
 
-[Preview do projeto](https://github.com/isabellesouzasv/clube-de-assinatura/blob/main/assets/screenshot.png) ([image](https://github.com/isabellesouzasv/clube-de-assinatura/raw/main/assets/screenshot.png))
+![Preview do projeto](/assets/screenshot.png)
 
 ## Funcionalidades
 

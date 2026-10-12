@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encantos Literários</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-header__brand" href="#inicio" aria-label="Encantos Literários - início">
+      <img src="assets/logo-horizontal.svg" alt="Encantos Literários">
+    </a>
+
+    <a class="button button--primary" href="#assinatura">Assinar</a>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero__content">
+        <h1 id="hero-title">Desperte a sua imaginação e explore novos mundos</h1>
+        <p>
+          Junte-se ao clube de assinatura Encantos Literários e descubra
+          maravilhas e aventuras a cada página.
+        </p>
+      </div>
+    </section>
+
+    <section class="about" aria-label="Sobre o clube">
+      <img
+        class="about__icon about__icon--book"
+        src="assets/mystery-opened-spellbook.png"
+        alt=""
+        aria-hidden="true"
+      >
+
+      <p class="about__description">
+        Receba todo mês um <strong>livro surpresa</strong> do seu tema favorito,
+        acompanhado de <strong>brindes exclusivos</strong> que tornarão a sua
+        experiência literária <strong>encantadora</strong>.
+      </p>
+
+      <img
+        class="about__icon about__icon--planchette"
+        src="assets/mystery-ouija-planchette.png"
+        alt=""
+        aria-hidden="true"
+      >
+      <img
+        class="about__icon about__icon--crystal-ball"
+        src="assets/mystery-crystal-ball.png"
+        alt=""
+        aria-hidden="true"
+      >
+    </section>
+
+    <section class="monthly-kit" id="kit" aria-labelledby="kit-title">
+      <header class="section-heading">
+        <div class="section-heading__title">
+          <img src="assets/star.svg" alt="" aria-hidden="true">
+          <h2 id="kit-title">Conheça o kit mensal</h2>
+          <img src="assets/star.svg" alt="" aria-hidden="true">
+        </div>
+        <p>Receba uma caixa surpresa todos os meses</p>
+      </header>
+
+      <div class="monthly-kit__showcase">
+        <figure class="monthly-kit__item monthly-kit__item--book">
+          <figcaption>Livro em capa dura</figcaption>
+          <img src="assets/book.png" alt="Livro O Castelo da Colina, de Sarah Geston">
+        </figure>
+
+        <figure class="monthly-kit__item monthly-kit__item--pin">
+          <figcaption>Broche exclusivo</figcaption>
+          <img src="assets/pin.png" alt="Broche temático do clube">
+        </figure>
+
+        <figure class="monthly-kit__item monthly-kit__item--bookmarks">
+          <figcaption>Marca páginas temático</figcaption>
+          <div class="monthly-kit__bookmarks">
+            <img src="assets/bookmark-yellow.png" alt="Marca-páginas amarelo">
+            <img src="assets/bookmark-purple.png" alt="Marca-páginas roxo">
+          </div>
+        </figure>
+      </div>
+    </section>
+
+    <section class="pricing" id="assinatura" aria-labelledby="pricing-title">
+      <h2 id="pricing-title">Assinatura<br>Encantos Literários</h2>
+
+      <div class="pricing__plans">
+        <article class="plan-card">
+          <h3>Mensal</h3>
+          <p class="plan-card__price">R$ 59,90<small>/mês</small></p>
+          <p class="plan-card__billing">R$ 718,80 por ano</p>
+
+          <ul class="plan-card__benefits">
+            <li>Kit mensal com livro temático</li>
+            <li>Broche e marca páginas exclusivo</li>
+            <li>Acesso à comunidade literária</li>
+          </ul>
+
+          <a class="button button--secondary" href="#">Assinar mensal</a>
+        </article>
+
+        <article class="plan-card plan-card--featured">
+          <div class="plan-card__heading">
+            <h3>Semestral</h3>
+            <span class="plan-card__badge">Popular</span>
+          </div>
+          <p class="plan-card__price">R$ 52,90<small>/mês</small></p>
+          <p class="plan-card__billing">R$ 634,80 por ano</p>
+
+          <ul class="plan-card__benefits">
+            <li>Kit mensal com livro temático</li>
+            <li>Broche e marca páginas exclusivo</li>
+            <li>Acesso à comunidade literária</li>
+            <li>Membro premium do clube</li>
+          </ul>
+
+          <a class="button button--primary" href="#">Assinar semestral</a>
+        </article>
+
+        <article class="plan-card">
+          <h3>Anual</h3>
+          <p class="plan-card__price">R$ 48,90<small>/mês</small></p>
+          <p class="plan-card__billing">R$ 586,80 por ano</p>
+
+          <ul class="plan-card__benefits">
+            <li>Kit mensal com livro temático</li>
+            <li>Broche e marca páginas exclusivo</li>
+            <li>Acesso à comunidade literária</li>
+            <li>Membro premium do clube</li>
+            <li>Planner anual de leituras</li>
+          </ul>
+
+          <a class="button button--secondary" href="#">Assinar anual</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__brand">
+      <img src="assets/logo-horizontal.svg" alt="Encantos Literários">
+
+      <nav class="social-links" aria-label="Redes sociais">
+        <a href="#" aria-label="Instagram"><img src="assets/instagram.svg" alt=""></a>
+        <a href="#" aria-label="X"><img src="assets/twitter.svg" alt=""></a>
+        <a href="#" aria-label="Facebook"><img src="assets/facebook.svg" alt=""></a>
+        <a href="#" aria-label="Discord"><img src="assets/discord.svg" alt=""></a>
+        <a href="#" aria-label="WhatsApp"><img src="assets/whatsapp.svg" alt=""></a>
+        <a href="#" aria-label="E-mail"><img src="assets/mail.svg" alt=""></a>
+      </nav>
+    </div>
+
+    <nav class="site-footer__navigation" aria-label="Navegação do rodapé">
+      <div>
+        <h2>Conteúdos</h2>
+        <a href="#">Kits passados</a>
+        <a href="#">Clube de membros</a>
+        <a href="#">Blog</a>
+      </div>
+
+      <div>
+        <h2>Ajuda</h2>
+        <a href="#">Central de ajuda</a>
+        <a href="#">Regulamentos</a>
+        <a href="#">Suporte</a>
+      </div>
+    </nav>
+  </footer>
+</body>
+</html>
